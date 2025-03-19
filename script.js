@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
     downloadButton.addEventListener('click', function() {
         // Create a link to the PDF file
         const link = document.createElement('a');
-        link.href = 'My_Resume_Priyanshu_Jangir.pdf'; // Path to your PDF file
+        link.href = './source_data/My_Resume_Priyanshu_Jangir.pdf'; // Path to your PDF file
         link.download = 'Priyanshu_Jangir_Resume.pdf'; // Name for the downloaded file
         
         // Append to the document, click it, and remove it
