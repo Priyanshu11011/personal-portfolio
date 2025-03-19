@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanshu Jangir - portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Header seaction -->
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#my-projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact-i-information">Contact</a></li>
+                <li><a href="#about-me-section">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="hero-text">
+            <h2>Hello, I'm <span class="highlight">Priyanshu Jangir</span></h2>
+            <h3 id="typing-text"></h3>
+            <p>Welcome to my Personal portfolio website.</p>
+            <div class="hero-buttons">
+                <a href="#my-projects" id="primary-btn">View MY Work</a>
+                <a href="#contact-i-information" id="secondary-btn">Contact Me</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/priyanshu-jangir-" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Priyanshu11011" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-img">
+            <div class="hero-img-content">
+                <div class="hero-img-content-img">
+                    <div class="hero-image-wrapper">
+                        <img src="/data/2.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="hero-img-content-text">
+                    <h1>Hi!</h1>
+                    <h2>I'm Priyanshu</h2>
+                    <p>Hi, I'm Priyanshu Jangir, a Computer Science Engineering (CSE) student with a passion for technology and innovation. I have experience in Python, HTML, CSS, and JavaScript, and I'm currently diving into the world of Artificial Intelligence and Machine Learning.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    <!-- Projects Section -->
+
+    <section id="my-projects">
+
+        <div class="section-header">
+            <div class="header-content">
+                <h2>MY PROJECTS</h2>
+                <div class="underline">
+                    <div class="color red"></div>
+                    <div class="color green"></div>
+                    <div class="color blue"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-toggles">
+            <button class="toggle-btn active" data-toggle="all">All</button>
+            <button class="toggle-btn" data-toggle="Web">Web Development</button>
+            <button class="toggle-btn" data-toggle="Python">Python Development</button>
+            <button class="toggle-btn" data-toggle="Design">Design</button>
+        </div>
+        
+        <div class="my-projects-grid">
+            <div class="my-projects-content" data-category="web">
+                <div class="p-info">
+                    <h3>Typing Speed Analysis Application</h3>
+                    <p>A responsive web-based typing test with real-time speed and accuracy tracking.</p>
+
+                    <div class="p-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="p-links">
+                        <a href="https://priyanshu11011.github.io/Typing-Test/" class="p-link" target="_blank"><i class="fa-solid fa-link"></i>Live</a>
+                        <a href="https://github.com/Priyanshu11011/Typing-Test" class="p-link" target="_blank"><i class="fa-brands fa-github"></i> Code Base</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="my-projects-content" data-category="design web">
+                <div class="p-info">
+                    <h3>Personal Portfolio</h3>
+                    <p>A highly professional and visually stunning personal portfolio</p>
+
+                    <div class="p-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="p-links">
+                        <a href="https://priyanshu11011.github.io/personal-portfolio/" class="p-link" target="_blank"><i class="fa-solid fa-link"></i>Live</a>
+                        <a href="https://github.com/Priyanshu11011/personal-portfolio" class="p-link" target="_blank"><i class="fa-brands fa-github"></i> Code Base</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="my-projects-content" data-category="python">
+                <div class="p-info">
+                    <h3>Personal Finance Tracker</h3>
+                    <p>Developed a Python-based finance tracker leveraging NumPy, Pandas, and Matplotlib for data analysis.</p>
+
+                    <div class="p-tags">
+                        <span>Python</span>
+                        <span>NumPy</span>
+                        <span>Pandas</span>
+                        <span>SciPy</span>
+                    </div>
+
+                    <div class="p-links">
+                        <a href="https://colab.research.google.com/drive/1rgMkIrfIUJUm_KphT_1KdayWB2lTl0kF?usp=sharing" class="p-link" target="_blank"><i class="fa-solid fa-link" target="_blank"></i>Run</a>
+                        <a href="https://github.com/Priyanshu11011/personal-finance-tracker" class="p-link" target="_blank"><i class="fa-brands fa-github"></i> Code Base</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- about me seaction -->
+
+    <section id="about-me-section">
+
+        <div class="section-header">
+            <div class="header-content">
+                <h2><span id="about-me-header">About Me</span> </h2>
+                <div class="underline">
+                    <div class="color red"></div>
+                    <div class="color green"></div>
+                    <div class="color blue"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-me-container">
+            <div class="about-me-info">
+                <h2>INFO</h2>
+
+                <div class="about-me-align-container-change">
+                    <div class="about-me-details">
+                        <i class="fa-solid fa-user"></i>
+                        <div class="user-details">
+                            <h3>Name</h3>
+                            <p class="info-d">Priyanshu Jangir</p>
+                        </div>
+                    </div>
+                    <div class="about-me-details">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="user-details">
+                            <h3>Email</h3>
+                            <p class="info-d">priyanshu.jangir.cs@gmail.com</p>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <div class="about-me-info">
+                <h2>EDUCATION</h2>
+
+                <div class="about-me-align-container">
+                    <div class="about-me-details">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <div class="user-details">
+                            <h4>B.Tech-CSE</h4>
+                            <p class="school-info">JECRC University, Jaipur | 2021-2025</p>
+                            <br>
+                            <div class="scores-info-about">
+                                <p>CGPA: 7.88</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+                    <div class="about-me-details">
+                        <div class="user-details">
+                            <h4>Senior Secondary(Class 12)</h4>
+                            <p class="school-info">New Look Central School, C.B.S.E | 2021</p>
+                            <br>
+                            <div class="scores-info-about">
+                                <p>Percentage: 89%</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+    
+                    <div class="about-me-details">
+                        <div class="user-details">
+                            <h4>Secondary(Class 10)</h4>
+                            <p class="school-info">New Look Central School, C.B.S.E | 2019</p>
+                            <br>
+                            <div class="scores-info-about">
+                                <p >Percentage: 80%</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Skills section -->
+
+    <section id="skills">
+
+        <div class="section-header">
+
+            <div class="header-content">
+                <h2>MY SKILLS</h2>
+                <div class="underline">
+                    <div class="color red"></div>
+                    <div class="color green"></div>
+                    <div class="color blue"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="s-content">
+
+            <div class="s-category">
+                <h3>Technical Skills</h3>
+
+                <div class="s-item">
+                    <div class="s-info">
+                        <h4>Programming Languages</h4>
+                        <div class="s-sub-info">
+                            <span>Pyhton</span>
+                            <span>JavaScript</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="s-item">
+                    <div class="s-info">
+                        <h4>Data Analysis</h4>
+                        <div class="s-sub-info">
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="s-item">
+                    <div class="s-info">
+                        <h4>Web Development</h4>
+                        <div class="s-sub-info">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="s-item">
+                    <div class="s-info">
+                        <h4>Data Visualization</h4>
+                        <div class="s-sub-info">
+                            <span>Matplotlip</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="s-item">
+                    <div class="s-info">
+                        <h4>Scientific Computing</h4>
+                        <div class="s-sub-info">
+                            <span>SciPy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="s-item">
+                    <div class="s-info">
+                        <h4>Version Control</h4>
+                        <div class="s-sub-info">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="s-item">
+                    <div class="s-info">
+                        <h4>Databases</h4>
+                        <div class="s-sub-info">
+                            <span>MySQL</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="s-category">
+                <h3>Professional Skills</h3>
+
+                <div class="ss-item">
+                    <div class="ss-info">
+                        <h4>Teamwork</h4>
+                        <p>100%</p>
+                    </div>
+
+                    <div class="ss-bar">
+                        <div class="ss-progress" data-progress="100"></div>
+                    </div>
+                </div>
+
+                <div class="ss-item">
+                    <div class="ss-info">
+                        <h4>Problem Solving</h4>
+                        <p>100%</p>
+                    </div>
+
+                    <div class="ss-bar">
+                        <div class="ss-progress" data-progress="100"></div>
+                    </div>
+                </div>
+
+                <div class="ss-item">
+                    <div class="ss-info">
+                        <h4>Project Management</h4>
+                        <p>100%</p>
+                    </div>
+
+                    <div class="ss-bar">
+                        <div class="ss-progress" data-progress="100"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        
+        <div class="section-header">
+
+            <div class="header-content">
+                <h2><span id="resume-header-span">MY</span> Resume</h2>
+                <div class="underline">
+                    <div class="color red"></div>
+                    <div class="color green"></div>
+                    <div class="color blue"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="r-content">
+            <div class="r-header">
+
+                <div id="r-about">
+                    <h3>Priyanshu Jangir</h3>
+                    <div id="r-pinfo">
+                        <span><i class="fa-solid fa-envelope"></i> priyanshu.jangir.cs@gmail.com</span>
+                        <span><i class="fa-solid fa-phone"></i>+91 8949219193</span>
+                        <span><i class="fa-solid fa-location-dot"></i>Jaipur, Rajasthan, India</span>
+                    </div>
+
+                    <div id="r-links">
+                        <a href="https://www.linkedin.com/in/priyanshu-jangir-" target="_blank"><i class="fa-brands fa-linkedin"></i> priyanshu-jangir-</a>
+                        <a href="https://priyanshu11011.github.io/personal-portfolio/" target="_blank"><i class="fa-solid fa-briefcase"></i> Portfolio</a>
+                        <a href="https://github.com/Priyanshu11011" target="_blank"><i class="fa-brands fa-github"></i> Priyanshu11011</a>
+                    </div>
+                </div>
+                
+
+                <div id="r-skill">
+
+                    <h4>SKILLS</h4>
+
+                    <div class="r-li-container">
+
+                        <ul class="r-skills">
+                            <li>Python</li>
+                        </ul>
+
+                        <ul>
+                            <li>SQL</li>
+                        </ul>
+
+                        <ul>
+                            <li>JavaScript</li>
+                        </ul>
+
+                        <ul class="r-li-one">
+                            <li>Git</li>
+                            <li>GitHub</li>
+                        </ul>
+
+                        <ul class="r-li-one">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+    
+                        <ul class="r-li-one">
+                            <li>Pandas</li>
+                            <li>NumPy</li>
+                            <li>SciPy</li>
+                            <li>Matplotlib</li>
+                        </ul>
+                        
+                    </div>
+
+                </div>
+
+                <div id="r-education">
+                    <h4>EDUCATION</h4>
+
+                    <div class="r-edu-con">
+                        <ul class="r-edu">
+                            <li>
+                                <p class="r-study">Bachelor of Technology in Computer Science & Engineering</p>
+                                <p class="r-iname">JECRC University, Jaipur | 2021-2025</p>
+                                <p class="r-score">CGPA: 7.88</p>
+                            </li>
+                        </ul>
+
+                        <ul class="r-edu2">
+                            <li>
+                                <p class="r-study">Senior Secondary(Class 12)</p>
+                                <p class="r-iname">New Look Central School, C.B.S.E | 2021</p>
+                                <p class="r-score">Percentage: 89%</p>
+                            </li>
+
+                            <li>
+                                <p class="r-study">Secondary(Class 10)</p>
+                                <p class="r-iname">New Look Central School, C.B.S.E | 2019</p>
+                                <p class="r-score">Percentage: 80%</p>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                <div id="r-projects">
+                    <h4>PROJECTS</h4>
+
+                    <div class="r-p-container">
+                        <ol class="r-p-li-items">
+
+                            <li class="r-p-li-items-child">
+                                <p>Personal Portfolio Website
+                                <ul class="r-p-li-items-child-con">
+                                    <li>Designed and developed a highly professional and visually stunning personal portfolio using HTML, CSS, and JavaScript.</li>
+                                    <li><a href="https://github.com/Priyanshu11011/personal-portfolio" target="_blank"><i class="fa-brands fa-github"></i>code-base</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="r-p-li-items-child">
+                                <p>Typing Speed Analysis Application</p>
+                                <ul class="r-p-li-items-child-con">
+                                    <li>Developed a fully responsive web-based typing test with real-time speed and accuracy tracking.</li>
+                                    <li><a href="https://github.com/Priyanshu11011/Typing-Test" target="_blank"><i class="fa-brands fa-github"></i>code-base</a></li>
+                                </ul>
+                            </li>
+    
+    
+                            <li class="r-p-li-items-child">
+                                <p>Personal Finance Tracker</p>
+                                <ul class="r-p-li-items-child-con">
+                                    <li>Developed a Python-based finance tracker leveraging NumPy, Pandas, and Matplotlib for data analysis.</li>
+                                    <li><a href="https://github.com/Priyanshu11011/personal-finance-tracker" target="_blank"><i class="fa-brands fa-github"></i>code-base</a></li>
+                                </ul>
+                            </li>
+
+                        </ol>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <button>Download Resume</button>
+    </section>
+
+
+    <section id="contact-i-information">
+
+        <div class="section-header">
+
+            <div class="header-content">
+                <h2>Contact Me</h2>
+                <div class="underline">
+                    <div class="color red"></div>
+                    <div class="color green"></div>
+                    <div class="color blue"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <p>Feel free to reach out, and I'll get back to you as soon as possible.</p>
+
+                <div class="c-align-container">
+                    <div class="contact-details">
+
+                        <div class="contact-d-items">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <h4>Email:</h4>
+                                <p>priyanshu.jangir.cs@gmail.com</p>
+                            </div>
+                        </div>
+    
+                        <div class="contact-d-items">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <h4>Contact:</h4>
+                                <p>+91 8949219193</p>
+                            </div>
+                        </div>
+    
+                        <div class="contact-d-items">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <h4>Location:</h4>
+                                <p>Jaipur, Rajasthan, India</p>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>Designed & Developed by <a href="https://github.com/Priyanshu11011/personal-portfolio">Priyanshu Jangir</a> - 2025</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
