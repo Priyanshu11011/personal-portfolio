@@ -431,7 +431,6 @@ nav {
 #my-projects {
     display: flex;
     flex-direction: column;
-    /* margin-top: 5.2rem; */
     padding: 2.8rem 2rem 2rem 2rem;
     background-color: black;
     border-top-left-radius: 5rem;
@@ -921,3 +920,716 @@ footer{
 footer a {
     color: #4489ff;
 }
+
+
+
+/*------------>>> Media Queries for Responsive Design <<<----------------- */
+
+@media (max-width:1420px){
+    .s-category h3 {
+        font-size: 2rem;
+    }
+
+    .s-info h4 {
+        font-size: 1.2rem;
+    }
+
+    .about-me-container h2 {
+        font-size: 2rem;
+        
+    }
+
+    .about-me-container h3 {
+        font-size: 1.5rem;
+        
+    }
+
+    .about-me-container h4 {
+        font-size: 1.5rem;
+    }
+
+    .user-details p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:1400px){
+    .s-content {
+        gap: 12rem;
+    }
+}
+
+@media (max-width:1250px){
+    .ss-item{
+        width: 30rem;
+    }
+
+    .about-me-align-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .about-me-align-container-change {
+        width: 100%;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+
+@media (max-width:1100px){
+    .ss-item {
+        width: 26rem;
+    }
+}
+
+@media (max-width:1028px) {
+    .s-content{
+        gap: 9rem;
+    }
+}
+
+
+@media screen and (max-width: 1370px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hero-text {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .hero-text{
+        margin-top: 1rem;
+    }
+    
+    .hero-img {
+        width: 90%;
+        margin: 2rem auto;
+        padding: 1rem;
+    }
+    
+
+    .hero-img-content-text h1 {
+        font-size: 3rem;
+       
+    }
+    
+    .hero-img-content-text h2 {
+        font-size: 2.5rem;
+       
+    }
+    
+    .hero-img-content-text p {
+        font-size: 1.2rem;
+
+    }
+    
+
+    #contact-i-information h3 {
+        font-size: 1.8rem;
+        
+    }
+
+    #contact-i-information h4{
+        font-size: 1.5rem;
+    }
+
+    .contact-info p {
+        font-size: 1.2rem;
+    }
+    
+    .contact-d-items p{
+        font-size: 1.2rem;
+    }
+
+    .c-align-container {
+        justify-content: flex-start;
+        
+    }
+
+    .footer-content {
+
+        font-size: 1rem;
+    
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    header {
+        background-color: #20230d;
+    } 
+
+    .nav-menu a::after { 
+        background-color: rgb(255, 194, 89);
+    }
+
+    .nav-menu li a {
+        color: rgba(255, 255, 255, 0.79);
+    }
+
+    .nav-menu {
+        gap: 2.5rem;
+        padding: 1rem;
+
+    }
+
+    .hero-text{
+        margin-top: 1.5rem;
+    }
+    
+    .hero-text h2 {
+        font-size: 3rem;
+    }
+    
+    .hero-img-content-img img {
+        width: 15rem;
+    }
+    
+    .hero-image-wrapper::before {
+        width: 15rem;
+        height: 15rem;
+        left: -3rem;
+    }
+    
+    .hero-image-wrapper::after {
+        width: 6rem;
+        height: 8rem;
+        left: 12rem;
+        bottom: 4rem;
+    }
+    
+    .s-content {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    .ss-item {
+        width: 100%;
+    }
+    
+    /* Scale the resume */
+
+    #resume {
+        border-top-right-radius: 3rem;
+        border-top-left-radius: 3rem;
+    }
+
+    .r-content {
+        transform: scale(0.85);
+        transform-origin: top center;
+        margin-bottom: -150px; /* Adjust to remove extra space created by scaling */
+    }
+}
+
+@media screen and (max-width: 768px) {
+     header {
+        background-color: #20230d;
+    } 
+
+    .nav-menu {
+        /* flex-direction: column; */
+        align-items: center;
+        gap: 2rem;
+        padding: 1rem 0;
+        margin-right: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .social-icons {
+        align-self: center;
+    }
+    
+    .hero-text{
+        margin-top: 1.5rem;
+    }
+
+    .nav-menu a::after { 
+        background-color: rgb(255, 194, 89);
+    }
+
+    .nav-menu li a {
+        color: rgba(255, 255, 255, 0.79);
+    }
+    
+    .hero-text h2 {
+        font-size: 2.9rem;
+    }
+
+    .highlight {
+        display: block;
+    }
+    
+    .hero-text h3 {
+        font-size: 1.3rem;
+    }
+    
+    .hero-text p {
+        font-size: 1.3rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .hero-buttons a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-img-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hero-img-content-text {
+        text-align: center;
+    }
+    
+    .my-projects-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .p-toggles {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    
+    #about-me-section, #my-projects {
+        border-radius: 2rem;
+        padding: 1.5rem;
+        margin: 1rem 0.5rem;
+    }
+    
+    .section-header {
+        font-size: 1.3rem;
+    }
+    
+    /*scale down the resume */
+
+    #resume {
+        border-top-right-radius: 2.5rem;
+        border-top-left-radius: 2.5rem;
+    }
+
+    .r-content {
+        transform: scale(0.7);
+        transform-origin: top center;
+        margin-bottom: -330px; /* Adjust to remove extra space */
+    }
+
+    #contact-i-information h3 {
+        font-size: 1.5rem;
+    }
+
+    #contact-i-information h4{
+        font-size: 1.3rem;
+    }
+
+    .contact-info p {
+        font-size: 1.1rem;
+    }
+    
+    .contact-d-items p{
+        font-size: 1.1rem;
+    }
+
+    .c-align-container {
+        justify-content: flex-start;
+    }
+    
+    .footer-content {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:670px) {
+
+    #resume {
+        border-top-right-radius: 2.5rem;
+        border-top-left-radius: 2.5rem;
+    }
+    .r-content {
+        transform: scale(0.6);
+        transform-origin: top center;
+        margin-bottom: -440px; /* Adjust to remove extra space */
+    }
+}
+
+/*576px and below */
+@media screen and (max-width: 576px) {
+
+    header {
+        background-color: #20230d;
+    } 
+
+    .nav-menu {
+        justify-content: center;
+        align-items: center;
+        gap: 2.3rem;
+        padding: 1rem 0;
+        font-size: 0.8rem;
+        margin-right: 0;
+    }
+
+    .nav-menu a::after { 
+        background-color: rgb(255, 194, 89);
+    }
+
+    .nav-menu li a {
+        color: rgba(255, 255, 255, 0.79);
+    }
+
+    .social-icons {
+        align-self: center;
+    }
+
+    .hero-text{
+        margin-top: 3rem;
+    }
+
+    .hero-text h2 {
+        font-size: 2.5rem;
+    }
+
+    .highlight{
+        display: block;
+    }
+    
+    .hero-img-content-img img {
+        width: 12rem;
+    }
+    
+    .hero-image-wrapper::before {
+        width: 12rem;
+        height: 12rem;
+        left: -2rem;
+    }
+    
+    .hero-image-wrapper::after {
+        width: 5rem;
+        height: 6rem;
+        left: 10rem;
+        bottom: 3rem;
+    }
+    
+    .hero-img-content-text h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-img-content-text h2 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-img-content-text p {
+        font-size: 1rem;
+    }
+
+    .hero-img-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hero-img-content-text {
+        text-align: center;
+    }
+
+    .p-toggles {
+        gap: 1.2rem;
+    }
+
+    .toggle-btn {
+        font-size: 0.7rem;
+    }
+    
+    .p-tags {
+        flex-wrap: wrap;
+    }
+
+    .my-projects-grid {
+        margin-top: 2rem;
+        gap: 1.2rem;
+    }
+
+    .p-info h3 {
+        font-size: 1.2rem;
+    }
+    
+     .p-info p {
+        font-size: 0.9rem;
+    }
+
+    .p-tags span {
+        font-size: 0.6rem;
+        border: 1.4px solid black;
+    }
+
+    .p-links a {
+        font-size: 1rem;
+    } 
+
+    #about-me-section {
+        border-radius: 0;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        background-color: #131501;
+    }
+
+    .about-me-container h2 {
+        font-size: 1.8rem;
+        
+    }
+    
+    .about-me-container h3 {
+        font-size: 1.5rem;
+        
+    }
+    
+    .about-me-container h4 {
+        font-size: 1.2rem;
+    
+    }
+    
+    .user-details p {
+        font-size: 0.9rem;
+    }
+
+
+    .scores-info-about p{
+        font-size: 0.8rem;
+        
+    }
+
+    #skills {
+        margin-top: 3rem;
+        padding: 0;
+    }
+
+    .s-category h3 {
+        font-size: 1.6rem;
+    }
+
+    .s-info h4 {
+        font-size: 1.1rem;
+    }
+
+    .s-sub-info span {
+        font-size: 0.7rem;
+    }
+
+    .ss-info {
+        font-size: 1rem;
+    }
+    
+    .ss-bar {
+        height: 0.5rem;
+    }
+
+    #my-projects {
+        border-radius:0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    /* Scale resume */
+
+    @keyframes flyInFromBottom {
+        0% {
+            opacity: 0;
+            transform: translateY(100px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .r-content {
+        transform: scale(0.55);
+        transform-origin: top center;
+        margin-bottom: -500px;
+    }
+    
+    #contact-i-information h3 {
+        font-size: 1.5rem;
+        
+    }
+
+    #contact-i-information h4{
+        font-size: 1.3rem;
+    }
+
+    .contact-info p {
+        font-size: 1.1rem;
+    }
+    
+    .contact-d-items p{
+        font-size: 1.1rem;
+    }
+
+    .c-align-container {
+        justify-content: flex-start;
+        
+    }
+
+    .footer-content {
+
+        font-size: 0.8rem;
+    
+    }
+
+    #resume {
+        border-radius: 0;
+    }
+
+}
+
+
+@media (max-width: 432px){
+    .nav-menu {
+        gap: 2rem;
+        font-size: 0.6rem;
+    }
+
+    .p-toggles {
+        gap: 1.2rem;
+    }
+
+    .toggle-btn {
+        font-size: 0.58rem;
+    }
+
+    .my-projects-grid {
+        margin-top: 2rem;
+        gap: 1.2rem;
+    }
+
+    .p-info h3 {
+        font-size: 1.1rem;
+    }
+    
+     .p-info p {
+        font-size: 0.8rem;
+    }
+
+    .p-tags span {
+        font-size: 0.6rem;
+        border: 1.4px solid black;
+    }
+
+    
+    .p-links a {
+        font-size: 1rem;
+    } 
+
+    #about-me-section {
+        border-radius: 0;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        background-color: #131501;
+    }
+
+    .about-me-container h2 {
+        font-size: 1.8rem;
+        
+    }
+    
+    .about-me-container h3 {
+        font-size: 1.5rem;
+        
+    }
+    
+    .about-me-container h4 {
+        font-size: 1.2rem;
+    
+    }
+    
+    .user-details p {
+        font-size: 0.9rem;
+    }
+
+
+    .scores-info-about p{
+        font-size: 0.8rem;
+        
+    }
+
+    #skills {
+        margin-top: 3rem;
+        padding: 0;
+    }
+
+    .s-category h3 {
+        font-size: 1.6rem;
+    }
+
+    .s-info h4 {
+        font-size: 1.1rem;
+    }
+
+    .s-sub-info span {
+        font-size: 0.7rem;
+    }
+
+    .ss-info {
+        font-size: 1rem;
+    }
+    
+    .ss-bar {
+        height: 0.5rem;
+    }
+
+    .r-content {
+        transform: scale(0.47);
+        transform-origin: top center;
+        margin-bottom: -580px; /* Adjust to remove extra space */
+    }
+
+    #contact-i-information h3 {
+        font-size: 1.5rem;
+        
+    }
+
+    #contact-i-information h4{
+        font-size: 1.3rem;
+    }
+
+    .contact-info p {
+        font-size: 1.1rem;
+    }
+    
+    .contact-d-items p{
+        font-size: 1.1rem;
+    }
+
+    .c-align-container {
+        justify-content: flex-start;
+        
+    }
+
+    .footer-content {
+        font-size: 0.8rem;
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .r-content {
+        transform: scale(0.45);
+        transform-origin: top center;
+        margin-bottom: -400px; 
+    }
+} 
+
+/*resume animation when scaling */
+@media screen and (max-width: 992px) {
+    .r-content.animate {
+        animation: none;
+        opacity: 1;
+    }
+} 
