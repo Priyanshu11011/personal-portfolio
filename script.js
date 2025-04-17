@@ -1,6 +1,6 @@
 // typing effect animation
 const typingText = document.getElementById('typing-text');
-const roles = ['B.Tech-CSE Student','Python Programmer', 'Frontend Developer'];
+const roles = ['B.Tech-CSE Student','Web Developer', 'Frontend Developer'];
 
 let roleIndex = 0;
 let charIndex =0;
