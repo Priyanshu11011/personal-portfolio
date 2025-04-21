@@ -472,10 +472,9 @@ nav {
 
 .my-projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 1rem;
     padding: 1rem;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
     margin-bottom: 4rem;
 }
 
@@ -685,6 +684,7 @@ nav {
     opacity: 0;
     transform: translateY(100px);
     border: 1px solid black;
+    font-size: 0.95rem;
 }
 
 .r-content.animate {
@@ -706,13 +706,13 @@ nav {
 #r-pinfo {
     display: flex;
     justify-content: space-between;
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
     margin-bottom: 1.3rem;
 }
 
 #r-links {
     display: flex;
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
     justify-content: space-between;
 }
 
@@ -770,6 +770,23 @@ nav {
 .r-score {
     margin-top: 0.5rem;
     font-weight:600;
+}
+
+#r-certification {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.r-certificate-sub {
+    display: flex;
+    flex-direction: column;
+}
+
+.r-certificate-sub-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 
@@ -1628,8 +1645,8 @@ footer a {
 
 /*resume animation when scaling */
 @media screen and (max-width: 992px) {
-    .r-content.animate {
+      .r-content.animate {
         animation: none;
         opacity: 1;
-    }
+  }
 } 
